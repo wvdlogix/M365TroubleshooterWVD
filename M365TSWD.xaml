@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="Microsoft Apps for Enterprise Troubleshooter for WVD" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="389*"/>
+            <ColumnDefinition Width="7*"/>
+        </Grid.ColumnDefinitions>
         <Label Content="Step 1: Select a working directory for the following operations" HorizontalAlignment="Left" Margin="25,54,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <Button x:Name="btnWorkingDirectoryBrowse" Content="Browse..." HorizontalAlignment="Left" Margin="25,85,0,0" VerticalAlignment="Top" Width="75"/>
         <Label x:Name="lblWorkingDirectory" Content="%Path%" HorizontalAlignment="Left" Margin="470,54,0,0" VerticalAlignment="Top"/>
@@ -28,7 +32,7 @@
         <Label x:Name="lblLastSuccessfulActivation" Content="Label" HorizontalAlignment="Left" Margin="177,228,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblNoInteract" Content="No action needs to be taken as you're operating in a local computer activation mode." HorizontalAlignment="Left" Margin="28,352,0,0" VerticalAlignment="Top" FontWeight="Bold" Visibility="Hidden" Foreground="#FF78C35C"/>
         <Label x:Name="lblTime" Content="" HorizontalAlignment="Left" Margin="71,10,0,0" VerticalAlignment="Top"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="663,17,0,0" VerticalAlignment="Top" Width="100" Source="https://wvdlogix.net/wp-content/uploads/2020/09/cropped-logo_hp.png"/>
+        <Image x:Name="imgLogo" HorizontalAlignment="Left" Height="100" Margin="663,17,0,0" VerticalAlignment="Top" Width="100" Source="https://wvdlogix.net/wp-content/uploads/2020/09/cropped-logo_hp.png"/>
 
     </Grid>
 </Window>
