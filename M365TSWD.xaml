@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:M365_App_Troubleshooter_for_WVD"
         mc:Ignorable="d"
-        Title="Microsoft Apps for Enterprise Troubleshooter for WVD - Patrick Köhler wvdlogix.net" Height="450" Width="800">
+        Title="Microsoft Apps for Enterprise Troubleshooter for WVD - Patrick Koehler wvdlogix.net" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="389*"/>
