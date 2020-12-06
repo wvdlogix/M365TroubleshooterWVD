@@ -23,7 +23,7 @@
         <Label Content="User:" HorizontalAlignment="Left" Margin="239,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.349,0.526" FontWeight="Bold"/>
         <Label x:Name="lblUser" Content="" HorizontalAlignment="Left" Margin="287,10,0,0" VerticalAlignment="Top"/>
         <Label Content="Time:" HorizontalAlignment="Left" Margin="25,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label Content="Step 3: Start remediation tasks by clicking &quot;RUN&quot; - if no remediation is needed, please close the application. " HorizontalAlignment="Left" Margin="28,276,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FFCB5252"/>
+        <Label Content="Step 3: Start remediation tasks by clicking &quot;RUN&quot; - if no remediation is needed, please close the application. " HorizontalAlignment="Left" Margin="28,276,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <Button x:Name="btnRUN" Content="RUN!" HorizontalAlignment="Left" Margin="28,307,0,0" VerticalAlignment="Top" Width="75" Visibility="Hidden"/>
         <Label x:Name="lblVersion" Content="Label" HorizontalAlignment="Left" Margin="134,166,0,0" VerticalAlignment="Top" Width="215"/>
         <Label x:Name="lblActivationType" Content="Label" HorizontalAlignment="Left" Margin="134,197,0,0" VerticalAlignment="Top"/>
