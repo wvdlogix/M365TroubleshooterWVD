@@ -1,0 +1,33 @@
+﻿<Window x:Class="M365_App_Troubleshooter_for_WVD.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:M365_App_Troubleshooter_for_WVD"
+        mc:Ignorable="d"
+        Title="Microsoft Apps for Enterprise Troubleshooter for WVD" Height="450" Width="800">
+    <Grid>
+        <Label Content="Step 1: Select a working directory for the following operations" HorizontalAlignment="Left" Margin="25,54,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Button x:Name="btnWorkingDirectoryBrowse" Content="Browse..." HorizontalAlignment="Left" Margin="25,85,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label x:Name="lblWorkingDirectory" Content="%Path%" HorizontalAlignment="Left" Margin="470,54,0,0" VerticalAlignment="Top"/>
+        <Label Content="Step 2: We analyze your current Session Host for Apps for Enterprise installations..." HorizontalAlignment="Left" Margin="25,135,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Installed Version: " HorizontalAlignment="Left" Margin="25,166,0,0" VerticalAlignment="Top"/>
+        <Label Content="Activation Type:" HorizontalAlignment="Left" Margin="25,197,0,0" VerticalAlignment="Top"/>
+        <Label Content="Roaming Token activated:" HorizontalAlignment="Left" Margin="367,166,0,0" VerticalAlignment="Top"/>
+        <Label Content="Roaming Token Location:" HorizontalAlignment="Left" Margin="367,197,0,0" VerticalAlignment="Top"/>
+        <Label Content="Last successfull activation:" HorizontalAlignment="Left" Margin="25,228,0,0" VerticalAlignment="Top"/>
+        <Label Content="User:" HorizontalAlignment="Left" Margin="239,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.349,0.526" FontWeight="Bold"/>
+        <Label x:Name="lblUser" Content="" HorizontalAlignment="Left" Margin="287,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Time:" HorizontalAlignment="Left" Margin="25,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Step 3: Start remediation tasks by clicking &quot;RUN&quot; - if no remediation is needed, please close the application. " HorizontalAlignment="Left" Margin="28,276,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Button x:Name="btnRUN" Content="RUN!" HorizontalAlignment="Left" Margin="28,307,0,0" VerticalAlignment="Top" Width="75" Visibility="Hidden"/>
+        <Label x:Name="lblVersion" Content="Label" HorizontalAlignment="Left" Margin="134,166,0,0" VerticalAlignment="Top" Width="215"/>
+        <Label x:Name="lblActivationType" Content="Label" HorizontalAlignment="Left" Margin="134,197,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblRoamingTokenEnabled" Content="Label" HorizontalAlignment="Left" Margin="517,166,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblRoamingTokenLocation" Content="Label" HorizontalAlignment="Left" Margin="517,197,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblLastSuccessfulActivation" Content="Label" HorizontalAlignment="Left" Margin="177,228,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblNoInteract" Content="No action needs to be taken as you're operating in a local computer activation mode." HorizontalAlignment="Left" Margin="28,352,0,0" VerticalAlignment="Top" FontWeight="Bold" Visibility="Hidden"/>
+        <Label x:Name="lblTime" Content="" HorizontalAlignment="Left" Margin="71,10,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
