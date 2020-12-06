@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:M365_App_Troubleshooter_for_WVD"
         mc:Ignorable="d"
-        Title="Microsoft Apps for Enterprise Troubleshooter for WVD" Height="450" Width="800">
+        Title="Microsoft Apps for Enterprise Troubleshooter for WVD - Patrick Köhler wvdlogix.net" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="389*"/>
@@ -32,7 +32,6 @@
         <Label x:Name="lblLastSuccessfulActivation" Content="Label" HorizontalAlignment="Left" Margin="177,228,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblNoInteract" Content="No action needs to be taken as you're operating in a local computer activation mode." HorizontalAlignment="Left" Margin="28,352,0,0" VerticalAlignment="Top" FontWeight="Bold" Visibility="Hidden" Foreground="#FF78C35C"/>
         <Label x:Name="lblTime" Content="" HorizontalAlignment="Left" Margin="71,10,0,0" VerticalAlignment="Top"/>
-        <Image x:Name="imgLogo" HorizontalAlignment="Left" Height="100" Margin="663,17,0,0" VerticalAlignment="Top" Width="100" Visibility="Visible" Source="https://wvdlogix.net/wp-content/uploads/2020/07/Step1.jpg"/>
 
     </Grid>
 </Window>
